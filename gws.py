@@ -21,6 +21,7 @@ for gw in data['dpinger']:
 
 if not want_name:
     print(json.dumps(data_out, indent=2))
+    sys.exit(0)
 
 
 # Normalize some values
